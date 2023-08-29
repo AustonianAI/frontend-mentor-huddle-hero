@@ -2,10 +2,8 @@ import Logo from "./logo"
 
 const Navbar = () => {
   return (
-    <nav className="h-24 pt-10 -ml-40 md:-ml-20">
-      <div className="justify-start items-start align-middle">
-        <Logo />
-      </div>
+    <nav className="flex justify-start align-middle ml-6 md:ml-14 h-28 md:h-36">
+      <Logo />
     </nav>
   )
 }

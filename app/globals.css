@@ -2,17 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: hsl(257, 40%, 49%);
+}
+
 .heroBackground {
   background-image: url(/bg-mobile.svg);
   background-color: hsl(257, 40%, 49%);
-  background-size: contain;
-  height: 100vh;
+  background-size: cover;
+  height: 373px;
   width: 100%;
 }
 
 @media (min-width: 768px) {
   .heroBackground {
     background-image: url(/bg-desktop.svg);
-    background-size: cover;
+    height: 800px;
   }
 }
